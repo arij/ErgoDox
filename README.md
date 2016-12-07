@@ -1,20 +1,5 @@
 # Information
+This repo is for the ErgoDox Mechanical Keyboard pcb and Litster's acrylic case designs (both standard and full hand).
 
-My colemak layout (without `teensy button`) http://configure.ergodox-ez.com/keyboard_layouts/qajjmk/edit 
-
-I aim for symmetry of modifier keys, primarily: I get Emacs Pinky quite quickly when using a standard (1 ctrl button) laptop keyboard.
-
-
-## Updating the keyboard layout
-
-Use ErgoDox EZ configurator (with my layout as the basis): http://configure.ergodox-ez.com/keyboard_layouts/qajjmk/edit
-
-This great configurator has loads of extra keys that I had to add manually, and painfully, to a `C` file.
-
-## Updating keyboard layout
-
-* Run teensy.app from teensy.dmg
-* Press +L1 then teensy button (on the old layout, EZ layout configurator doesn't have this `teensy button`)
-* Open newest .hex file
-* Program
-* Reboot
+## Changelog: 
+2016-12-01: Updated with fixes to include proper support for 1u keys in the outer columns. Silkscreen updated to reflect ErgoDox.io as the new home of the ErgoDox. Removed unnessicary .hex files and teensy.dmg files. 
